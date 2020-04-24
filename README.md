@@ -5,4 +5,4 @@ The competition involved detecting shapes printed out on papers where each shape
 then this information is communicated to the robot via bluetooth.
 
 The robot uses a Arduino UNO for processing and a HC05 bluetooth module. The IR sensor array was fabricated on a perf board with IR leds
-and IR receivers.
+and IR receivers. It runs a grid solving algorithm to find which coordinate it is currently at to better tailor its path to the destination node given during the competition.
